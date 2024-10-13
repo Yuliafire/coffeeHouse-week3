@@ -209,6 +209,7 @@
   width: 100%;
   max-width: 768px;
   margin: 0 auto;
+  padding: 0px;
 }
 
 .hero__container {
@@ -226,7 +227,7 @@
 }
 
   .hero__descr {
-    left: 10;
+    left: 40px;
     gap: 20px;
     flex-direction: column;
   }
