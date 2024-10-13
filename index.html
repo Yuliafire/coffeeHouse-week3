@@ -1,0 +1,396 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Coffee House 3rd week</title>
+    <link rel="stylesheet" href="./styles.css">
+    <link rel="stylesheet" href="./media.css">
+</head>
+<body>
+
+ <!-- HEADER START -->
+    <header class="header">
+        <div class="header__container">
+            <h1 class="header__logo"><img src="./assets/icon/logo.png" alt="Logo"/></h1>
+            <nav class="header__navbar open" id="header-nav">
+                <ul class="nav__menu" id="burger-menu">
+                    <li class="nav__item"><a href="#favCoffee" class="nav__link" id="fav-coffee-link">Favorite Coffee</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link " id="about-link">About</a></li>
+                    <li class="nav__item"><a href="#mobile-app" class="nav__link " id="mobile-app-link">Mobile App</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link" id="contact-link">Contact Us</a></li>
+                </ul>
+            </nav>
+            <div class="header__menu" id="header-menu">
+                <p>Menu</p>
+                <img src="./assets/icon/coffee-cup.png" class="header__menu-img" alt = "coffe cup icon"/>
+            </div>
+            <!-- BURGER BUTTON -->
+              <div class="hamburger hamburger--active" id="burger-btn" >
+                <span class="line"></span>
+                <span class="line"></span>
+              </div>
+        </div>
+    </header>
+     <!-- HEADER END -->
+
+ <!-- HERO SECTION START -->
+<section class="hero" id="hero">
+    <div class="hero__container">
+        <img src="./assets/imeges/morning.jpg" class="hero__img" alt="coffee-cup image"/>
+        <div class="hero__descr">
+            <h2 class="hero__title"><span>Enjoy</span> premium coffee at our charming cafe</h2>
+            <p class="hero__text">With its inviting atmosphere and delicious coffee options, the Coffee House Resource is a popular destination for coffee lovers and those seeking a warm and inviting space to enjoy their favorite beverage.</p>
+            <button class="hero__btn" id="hero-btn">
+                <span class="hero__btn-text">Menu</span>
+                <img src="./assets/icon/coffee-cup.png" class="hero__btn-img" alt = "coffe cup icon"/>
+            </button>
+        </div>
+    </div>
+</section>
+<!-- HERO SECTION END -->
+
+ <!-- HIDDEN MENU -->
+<section class="menu" id="menu">
+    <div class="menu__container">
+       <h2 class="menu__title">Behind each of our cups hides an <span>amazing surprise</span></h2>
+       <div class="menu__categories">
+        <div id="coffee-btn" class="category-btn categories__group">
+            <img class="categories__img" src="./assets/icon/coffee.png" alt="">
+            <p class="categories__text">Coffee</p>
+        </div>
+        <div id="tea-btn" class="category-btn categories__group">
+            <img  class="categories__img" src="./assets/icon/coffee.png" alt="">
+            <p class="categories__text">Tea</p>
+        </div>
+        <div id="dessert-btn" class="category-btn categories__group">
+            <img  class="categories__img" src="./assets/icon/dessert.png" alt="">
+            <p class="categories__text">Dessert</p>
+        </div>
+       </div>
+ 
+       <!--coffee drinks start-->
+       <div class="menu__drinks" id="menu-drinks"> 
+        <div class="drinks__line" id="coffee-drinks-first-line">
+             <div class="menu__item">
+                <img src="./assets/imeges/coffee-1.jpg" alt="coffee" class="item__img">
+                <h3 class="item__title">Irish coffee</h3>
+                <p class="item__descr">Fragrant black coffee with Jameson Irish whiskey and whipped milk</p>
+                <span class="item__price">$7.00</span>
+             </div>
+             <div class="menu__item">
+                <img src="./assets/imeges/coffee-2.jpg" alt="coffee" class="item__img">
+                <h3 class="item__title">Kahlua coffee</h3>
+                <p class="item__descr">
+                    Classic coffee with milk and Kahlua liqueur under a cap of frothed milk</p>
+                <span class="item__price">$7.00</span>
+             </div>
+             <div class="menu__item">
+                <img src="./assets/imeges/coffee-3.jpg" alt="coffee" class="item__img">
+                <h3 class="item__title">Honey Raf</h3>
+                <p class="item__descr">
+                    Espresso with frothed milk, cream and aromatic honey</p>
+                <span class="item__price">$5.50</span>
+             </div>
+             <div class="menu__item">
+                <img src="./assets/imeges/coffee-4.jpg" alt="coffee" class="item__img">
+                <h3 class="item__title">Iced Cappuccino</h3>
+                <p class="item__descr">Lorem ipsum dolor sit amet consectetur adipisicing elit. Dolorum iusto officiis necessitatibus!</p>
+                <span class="item__price">$5.00</span>
+             </div>
+        </div>
+
+        <div class="drinks__line drinks__line--hidden" id="coffee-drinks-second-line">
+            <div class="menu__item">
+                <img src="./assets/imeges/coffee-5.jpg" alt="coffee" class="item__img">
+                <h3 class="item__title">Espresso</h3>
+                <p class="item__descr">
+                    Classic black coffee
+                </p>
+                <span class="item__price">$4.50</span>
+             </div>
+             <div class="menu__item">
+                <img src="./assets/imeges/coffee-6.jpg" alt="coffee" class="item__img">
+                <h3 class="item__title">Latte</h3>
+                <p class="item__descr">
+                    Espresso coffee with the addition of steamed milk and dense milk foam.
+                 </p>
+                <span class="item__price">$5.50</span>
+             </div>
+             <div class="menu__item">
+                <img src="./assets/imeges/coffee-7.jpg" alt="coffee" class="item__img">
+                <h3 class="item__title">Latte Macchiato</h3>
+                <p class="item__descr">Latte macchiato
+                    Espresso with frothed milk and chocolate
+                    $5.50</p>
+                <span class="item__price">$5.50</span>
+             </div>
+             <div class="menu__item">
+                <img src="./assets/imeges/coffee-8.jpg" alt="coffee" class="item__img">
+                <h3 class="item__title">Coffee with Cognac</h3>
+                <p class="item__descr"> 
+                    Fragrant black coffee with cognac and whipped cream
+                </p>
+                <span class="item__price">$6.50</span>
+             </div>
+        </div>
+        <div class="menu__refresh" id="coffee-refresh-button">
+            <img src="./assets/icon/refresh.png" alt="refresh" class="menu__refresh-img">
+        </div>
+      </div>
+       <!--coffee drinks end-->
+
+       <!--tea drinks start-->
+       <div class="menu__tea hidden" id="menu-tea">
+        <div class="menu__item">
+            <img src="./assets/imeges/tea-1.png" alt="tea" class="item__img">
+            <h3 class="item__title">Moroccan</h3>
+            <p class="item__descr">Fragrant black tea with the addition of tangerine, cinnamon, honey, lemon and mint
+               </p>
+            <span class="item__price">$4.50</span>
+         </div>
+         <div class="menu__item">
+            <img src="./assets/imeges/tea-2.png" alt="tea" class="item__img">
+            <h3 class="item__title">Ginger</h3>
+            <p class="item__descr">Original black tea with fresh ginger, lemon and honey</p>
+            <span class="item__price"> $5.00</span>
+         </div>
+         <div class="menu__item">
+            <img src="./assets/imeges/tea-3.png" alt="tea" class="item__img">
+            <h3 class="item__title">Cranberry</h3>
+            <p class="item__descr">Invigorating black tea with cranberry and honey</p>
+            <span class="item__price">$5.00</span>
+         </div>
+         <div class="menu__item">
+            <img src="./assets/imeges/tea-4.png" alt="tea" class="item__img">
+            <h3 class="item__title">Sea buckthorn</h3>
+            <p class="item__descr">Toning sweet black tea with sea buckthorn, fresh thyme and cinnamon
+            </p>
+            <span class="item__price">$5.50</span>
+         </div>
+       </div>
+       <!--tea drinks end-->
+
+         <!--desserts drinks start-->
+       <div class="menu__desserts hidden" id="menu-desserts">
+        <div class="desserts__line" id="desserts-first-flex">
+             <div class="menu__item">
+                <img src="./assets/imeges/dessert-1.png" alt="dessert" class="item__img">
+                <h3 class="item__title">Marble cheesecake</h3>
+                <p class="item__descr">Philadelphia cheese with lemon zest on a light sponge cake and red currant jam</p>
+                <span class="item__price"> $3.50</span>
+             </div>
+             <div class="menu__item">
+                <img src="./assets/imeges/dessert-2.png" alt="dessert" class="item__img">
+                <h3 class="item__title">Red velvet</h3>
+                <p class="item__descr">Layer cake with cream cheese frosting</p>
+                <span class="item__price">$4.00</span>
+             </div>
+             <div class="menu__item">
+                <img src="./assets/imeges/dessert-3.png" alt="dessert" class="item__img">
+                <h3 class="item__title">Cheesecakes</h3>
+                <p class="item__descr">Soft cottage cheese pancakes with sour cream and fresh berries and sprinkled with powdered sugar</p>
+                <span class="item__price">$4.50</span>
+             </div>
+             <div class="menu__item">
+                <img src="./assets/imeges/dessert-4.png" alt="dessert" class="item__img">
+                <h3 class="item__title">Creme brulee</h3>
+                <p class="item__descr">
+                    Delicate creamy dessert in a caramel basket with wild berries</p>
+                <span class="item__price">$4.00</span>
+             </div>
+        </div>
+
+        <div class="desserts__line desserts__line--hidden" id="desserts-second-flex">
+            <div class="menu__item">
+                <img src="./assets/imeges/dessert-5.png" alt="dessert" class="item__img">
+                <h3 class="item__title">Pancakes</h3>
+                <p class="item__descr">Tender pancakes with strawberry jam and fresh strawberries</p>
+                <span class="item__price"> $4.50</span>
+             </div>
+             <div class="menu__item">
+                <img src="./assets/imeges/dessert-6.png" alt="dessert" class="item__img">
+                <h3 class="item__title">Honey cake</h3>
+                <p class="item__descr">Classic honey cake with delicate custard</p>
+                <span class="item__price"> $4.50</span>
+             </div>
+             <div class="menu__item">
+                <img src="./assets/imeges/dessert-7.png" alt="dessert" class="item__img">
+                <h3 class="item__title">Chocolate cake</h3>
+                <p class="item__descr">Cake with hot chocolate filling and nuts with dried apricots</p>
+                <span class="item__price">$5.50</span>
+             </div>
+             <div class="menu__item">
+                <img src="./assets/imeges/dessert-8.png" alt="dessert" class="item__img">
+                <h3 class="item__title">Black forest</h3>
+                <p class="item__descr">A combination of thin sponge cake with cherry jam and light chocolate mousse</p>
+                <span class="item__price">$6.50</span>
+             </div>
+        </div>
+        <!--desserts drinks end-->
+        <div class="menu__refresh" id="desserts-refresh-button">
+            <img src="./assets/icon/refresh.png" alt="refresh" class="menu__refresh-img">
+        </div>
+    </div>
+    </div>
+</section>
+
+<!-- FAV COFFEE SECTION START -->
+<section class="fav-coffee" id="favCoffee">
+    <div class="fav-coffee__container">
+        <h2 class="fav-coffee__title">Choose your <span>favourite</span> coffee</h2>
+        <div class = "fav-coffee__wrapper">
+            <img class="fav-coffee__arrow fav-coffee__arrow--left" src="./assets/icon/arrow-left.png" alt="arrow"/>
+                <div class="fav-coffee__slide-item">
+                    <img src="./assets/imeges/coffee-slider-1-min.png" alt="coffee"/>
+                    <div class="fav-coffee__item-textbx">
+                    <h3 class="fav-coffee__item-title"> S’mores Frappuccino</h3>
+                    <p class="fav-coffee__item-descr">Choose your favorite coffee
+                      This new drink takes an espresso and mixes it with brown<br/>sugar and cinnamon before being topped with oat milk.
+                  </p>
+                    <span class="fav-coffee__item-price">$5.50</span>
+                  </div>
+                </div>
+                <div class="fav-coffee__slide-item hidden">
+                    <img src="./assets/imeges/coffee-slider-2-min.png" alt="coffee"/>
+                    <div class="fav-coffee__item-textbx">
+                    <h3 class="fav-coffee__item-title"> S’mores Frappuccino</h3>
+                    <p class="fav-coffee__item-descr">Choose your favorite coffee
+                      This new drink takes an espresso and mixes it with brown<br/>sugar and cinnamon before being topped with oat milk.
+                  </p>
+                    <span class="fav-coffee__item-price">$5.50</span>
+                  </div>
+                </div>
+                <div class="fav-coffee__slide-item hidden">
+                    <img src="./assets/imeges/coffee-slider-3-min.png" alt="coffee"/>
+                    <div class="fav-coffee__item-textbx">
+                    <h3 class="fav-coffee__item-title"> S’mores Frappuccino</h3>
+                    <p class="fav-coffee__item-descr">Choose your favorite coffee
+                      This new drink takes an espresso and mixes it with brown<br/>sugar and cinnamon before being topped with oat milk.
+                  </p>
+                    <span class="fav-coffee__item-price">$5.50</span>
+                  </div>
+                </div>
+             <img  class="fav-coffee__arrow fav-coffee__arrow--right" src="./assets/icon/arrow.png" alt="arrow"/>
+        </div>
+         <div class="fav-coffee__pagination">
+            <span class="fav-coffee__pagination-line fav-coffee__pagination-line--active"></span>
+            <span class="fav-coffee__pagination-line fav-coffee__pagination-line--active"></span>
+            <span class="fav-coffee__pagination-line fav-coffee__pagination-line--active"></span>
+        </div>
+    </div>
+</section>
+<!-- FAV COFFEE SECTION END -->
+
+<section class="about" id="about">
+    <div class="about__container">
+        <h2 class="about__title">Resource is the <span>perfect and cozy place</span> where you can enjoy a variety of hot beverages, relax, catch up with friends, or get some work done.</h2>
+        <div class="about__pics">
+            <div class="about__pics-left">
+                <img class="about__img about__img--big" src="./assets/imeges/about-1.jpg" alt="photo"/>
+                <img class="about__img about__img--small" src="./assets/imeges/about-2.jpg" height="430px" alt="photo"/>
+            </div>
+            <div class="about__pics-right">
+                <img class="about__img about__img--small" src="./assets/imeges/about-3.jpg" height="430px" alt="photo"/>
+                <img class="about__img about__img--big  shrink" src="./assets/imeges/about-4.jpg" alt="photo"/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- MOBILE-APP start -->
+<section class="mobile-app" id="mobile-app">
+    <div class="mobile-app__container">
+        <div class="mobile-app__leftbx">
+           <h2 class="mobile-app__title">
+             <span>Download</span> our apps<br/> to start ordering
+           </h2>
+           <p class="mobile-app__text">
+             Download the Resourse app today and experience the comfort of ordering your<br>favourite coffee from wherever you are
+           </p>
+            <div class="mobile-app__applinks">
+                <div class="mobile-app__link">
+                    <img src="./assets/icon/apple.png" alt="">
+                    <div class = "mobile-app__link-text">
+                        <span class = "mobile-app__link-text--available">Available on</span>
+                        <p class = "mobile-app__link-text--platform">App Store</p>
+                    </div>
+
+                </div>
+                <div class="mobile-app__link">
+                    <img src="./assets/icon/google.png" alt="">
+                    <div class = "mobile-app__link-text">
+                        <span class = "mobile-app__link-text--available">Available on</span>
+                        <p class = "mobile-app__link-text--platform">Google Play</p>
+                    </div>
+
+                </div>
+            </div>
+            <div>
+          </div>
+        </div>
+        <img class="mobile-app__rightbx" src="./assets/imeges/mobile-screens-min.png" alt="phone image"/>
+    </div>
+</section>
+<!-- MOBILE-APP END -->
+
+<!-- FOOTER start -->
+<footer class="footer" id="contact">
+    <div class="footer__container">
+
+      <div class="footer__left">
+        <div class="footer__greeting">
+            <h2 class="footer__greeting-title">Sip, Savor, Smile.</h2>
+            <p class="footer__greeting-text">It's coffee time!</p>
+        </div>
+          <ul class="footer__social-icons">
+            <li class="footer__social-icon">
+                <a href="https://www.instagram.com/your_account">
+                    <img class="footer__social-icon-img" src="./assets/icon/instagram.svg" alt="insta">
+                </a>
+            </li>
+            <li class="footer__social-icon">
+                <a href="https://www.facebook.com/your_account">
+                    <img class="footer__social-icon-img" src="./assets/icon/facebook.svg" alt="facebook">
+                </a>
+            </li>
+            <li class="footer__social-icon">
+                <a href="https://twitter.com/your_account">
+                    <img class="footer__social-icon-img" src="./assets/icon/twitter.svg" alt="twitter">
+                </a>
+            </li>
+          </ul>
+      </div>
+
+        <div class="footer__right">
+            <h4 class="footer__title">Contact us</h4>
+            <div class="footer__contact-info">
+                <div class="footer__contact-info-item">
+                    <img src="./assets/icon/pin-alt.png" alt ="pin-icon"/>
+                    <a href="https://www.google.com/maps/search/?api=1&query=your+location" target="_blank" class="footer__link">
+                        8558 Green Road, LA.
+                    </a>
+
+                </div>
+                <div class="footer__contact-info-item">
+                    <img src="./assets/icon/phone.png"  alt ="phone-icon"/>
+                    <a href="tel:+16015555555" class="footer__link">
+                        +1 (601) 555-5555
+                    </a>
+                </div>
+                <div class="footer__contact-info-item">
+                    <img src="./assets/icon/clock.png" alt ="clock-icon"/>
+                    <p class="footer__contact-info-text">
+                       Mon-Sat: 9:00 AM - 11:00 PM
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+</footer> 
+
+<!-- FOOTER end -->
+
+<!-- <script src="./script.js"></script> -->
+</body>
+</html>
