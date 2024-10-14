@@ -642,6 +642,7 @@ line-height: 125%;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    margin: 0 auto;
   }
 
   .menu__container {
@@ -652,6 +653,8 @@ line-height: 125%;
     gap: 20px;
   }
 
+  
+
   .categories__group {
     display: flex;
     gap: 10px;
@@ -660,9 +663,19 @@ line-height: 125%;
     padding: 5px 10px;
   }
 
-  .coffee-drinks-second-line {
-    display: hidden;
+
+
+  .menu__drinks {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
   }
+
+  /* .coffee-drinks-second-line {
+    display: hidden;
+  } */
 
   .menu__refresh {
     display: flex;
@@ -684,7 +697,7 @@ line-height: 125%;
     height: 120px;
     font-style: normal;
     font-weight: 600;
-    font-size: 32px;
+    font-size: 2rem;
     line-height: 125%;
     text-align: center;
   }
@@ -835,8 +848,8 @@ line-height: 125%;
   }
 
   .mobile-app__rightbx {
-    width: 21.75rem;
-    height: 21.75rem;
+    width: 17.75rem;
+    height: 17.75rem;
   }
 
   /* mobile-app end */
