@@ -390,7 +390,6 @@ text-align: center;
     max-width: 90%;
   }
 
-
   /* menu start */
   .menu {
     max-width: 768px;
@@ -413,6 +412,8 @@ text-align: center;
   .menu__categories {
     max-width: 760px;
     gap: 20px;
+    margin-top: -130px;
+   
   }
 
   .menu__title {
@@ -425,6 +426,7 @@ text-align: center;
     text-align: center;
     align-self: center;
     word-wrap: break-word;
+    margin-top: 20px;
   }
 
   .menu__drinks,
@@ -432,9 +434,10 @@ text-align: center;
   .menu__desserts {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: center;
     gap: 20px;
+   
   }
 
   .desserts__line--hidden,
@@ -445,6 +448,7 @@ text-align: center;
   .menu__coffee-refresh,
    .menu__desserts-refresh {
      margin-bottom: 20px;
+     align-self: flex-end;
     }
 
   /* menu end */
