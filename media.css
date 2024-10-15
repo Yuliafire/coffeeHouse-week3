@@ -181,7 +181,6 @@
     transition: 0.3s;
     padding: 20px 0px;
     margin: 0 auto;
-    
   }
 
   .nav__menu.active {
@@ -316,7 +315,7 @@
 
 
 .fav-coffee__item-descr {
-width: 30rem;
+width: 25rem;
 font-size: 1rem;
 text-align: center;
 }
@@ -417,10 +416,10 @@ text-align: center;
   }
 
   .menu__title {
-    width: 30rem;
+    width: 24rem;
     height: 225px;
-    font-style: normal;
-    font-weight: 600;
+    /* font-style: normal;
+    font-weight: 600; */
     font-size: 2rem;
     line-height: 125%;
     text-align: center;
@@ -443,10 +442,11 @@ text-align: center;
     display: none;
   }
 
-  /* .menu__coffee-refresh,
+  .menu__coffee-refresh,
    .menu__desserts-refresh {
-      display: flex;
-    } */
+     margin-bottom: 20px;
+    }
+
   /* menu end */
 
 
