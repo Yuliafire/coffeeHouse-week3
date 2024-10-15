@@ -403,14 +403,29 @@ text-align: center;
     margin: 0 auto;
   }
 
+  .menu__container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .menu__categories {
+    max-width: 760px;
+    gap: 20px;
+  }
+
   .menu__title {
-    width: 43rem;
+    width: 30rem;
     height: 225px;
     font-style: normal;
     font-weight: 600;
-    font-size: 2.4rem;
+    font-size: 2rem;
     line-height: 125%;
     text-align: center;
+    align-self: center;
+    word-wrap: break-word;
   }
 
   .menu__drinks,
