@@ -86,6 +86,133 @@ table {
   border-spacing: 0;
 }
 
+/* BUTTONS */
+
+
+.button--primary {
+display: flex;
+justify-content: center;
+align-items: center;
+padding: 20px 78px;
+gap: 8px;
+width: 12.5rem;
+height: 4rem;
+background: #E1D4C9;
+border-radius: 100px;
+position: relative;
+}
+
+.button--primary::after {
+  content:url('../assets/icon/coffee-cup.png');
+  position: absolute;
+  right: 58px;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+  z-index: 2000;
+  width: 20px;
+  height: 20px;
+}
+
+.button--primary:hover::after {
+   opacity: 1;
+}
+
+
+
+.button-secondary {
+/* box-sizing: border-box; */
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 10px 78px;
+gap: 8px;
+width: 12.5rem;
+height: 2.75rem;
+border: 1px solid #665F55;
+border-radius: 100px;
+}
+
+.button-secondary:hover {
+ /* State=hover */
+/* Background/Container */
+background: #665F55;
+border-radius: 100px;
+
+}
+
+
+.button-app-store {
+  /* button-app-store */
+/* State=default */
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 12px 20px;
+gap: 8px;
+width: 200px;
+height: 64px;
+border: 1px solid #665F55;
+border-radius: 100px;
+
+}
+
+.button-app-store:hover {
+background: #665F55;
+border-radius: 100px;
+color: #E1D4C9;
+}
+
+.button-app-store:hover .mobile-app__link-text {
+  color: white;
+  /* App Store */
+  color: #E1D4C9;
+}
+
+
+
+.button-google-play {
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+padding: 12px 20px;
+gap: 8px;
+width: 12.5rem;
+height: 4rem;
+border: 1px solid #665F55;
+border-radius: 100px;
+}
+
+.button-google-play:hover {
+background: #665F55;
+border-radius: 100px;
+color: #E1D4C9;
+
+}
+
+.tab-button {
+display: flex;
+flex-direction: row;
+justify-content: center;
+align-items: center;
+padding: 8px 16px 8px 8px;
+gap: 8px;
+width: 7.1875rem;
+height: 2.875rem;
+/* Border/Light */
+border: 1px solid #C1B6AD;
+border-radius: 100px;
+}
+
+
+.tab-button:hover,
+.tab-button.active {
+/* Background/Container */
+background: #665F55;
+}
+
 
 /* HEADER */
 .header {
@@ -136,15 +263,11 @@ table {
 .header__menu {
   display: flex;
   align-items: center;
-  gap: 5px;
-  font-size: 1.4em;
-  color: #403F3D;
+  gap: 10px;
 }
 
 .header__menu:hover {
-  cursor: pointer;
-  font-weight: bold;
-  text-decoration: underline;
+  text-decoration: underline; ;
 }
 
 /* BURGER MENU STYLES */
@@ -368,14 +491,14 @@ table {
   font-size: 1.5rem;
 }
 
-.category-btn {
+/* .category-btn {
   border: 1px solid #665F55;
   color: #403F3D;
-}
+} */
 
-.category-btn:hover {
+/* .category-btn:hover {
   cursor: pointer;
-}
+} */
 
 
 .active {
@@ -632,7 +755,7 @@ span {
   gap: 20px;
 }
 
-.mobile-app__link {
+/* .mobile-app__link {
   display: flex;
   flex-wrap: row;
   justify-content: center;
@@ -643,7 +766,21 @@ span {
   height: 5rem;
   border: 1px solid #665F55;
   border-radius: 55px;
+} */
+
+/* .mobile-app__link:hover {
+  background-color: #403F3D !important;
+  cursor: pointer;
+  color: white;
 }
+
+.mobile-app__link:hover.mobile-app__link-text {
+  color: white !important;
+} */
+
+
+
+
 
 .mobile-app__rightbx {
   max-width: 39.38rem;
