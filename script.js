@@ -202,6 +202,7 @@ modals.forEach((modal) => {
         modal.classList.add('modal--hidden');
         menu.classList.remove('blur');
         document.querySelector('.header').classList.remove('blur');
+        document.body.style.overflow = 'visible';
     });
 });
 
