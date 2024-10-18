@@ -191,8 +191,8 @@ document.addEventListener('DOMContentLoaded', () => {
         item.addEventListener('click', function() {
             modals[index].classList.remove('modal--hidden');
             document.body.style.overflow =  'hidden';
-            menu.classList.add('blur');
-            document.querySelector('.header').classList.add('blur');
+            menu.classList.add('grayscale');
+            document.querySelector('.header').classList.add('grayscale');
         })
     })
 
@@ -200,17 +200,13 @@ modals.forEach((modal) => {
     const modalCloseBtn = modal.querySelector('.modal__btn');
     modalCloseBtn.addEventListener('click',() => {
         modal.classList.add('modal--hidden');
-        menu.classList.remove('blur');
-        document.querySelector('.header').classList.remove('blur');
+        menu.classList.remove('grayscale');
+        document.querySelector('.header').classList.remove('grayscale');
         document.body.style.overflow = 'visible';
     });
 });
 
 
-
-
-
- 
 
 
 

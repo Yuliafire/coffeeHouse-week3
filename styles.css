@@ -530,6 +530,11 @@ background: #665F55;
 }
 
 
+.grayscale {
+  filter: grayscale(100%);
+}
+
+
 @media (min-width: 381px) and (max-width: 768px) {
   .menu__refresh {
     display: flex;
@@ -962,6 +967,8 @@ span {
     justify-content: space-between;
     align-items: flex-start;
     width: 380px;
+    height:fit-content;
+    gap: 20px;
   }
 
   .modal__heading {
@@ -1037,11 +1044,19 @@ span {
 
    .modal__tabs {
  display: flex;
+  flex-direction:column;
  justify-content: space-between;
  align-items: flex-start;
  gap: 10px;
   }
 
+
+  .modal__tabs-items {
+    display: flex;
+    /* flex-direction:column; */
+    justify-content: space-between;
+    align-items: flex-start;
+  }
 
 .modal__tabs-item {
 /* Auto layout */
